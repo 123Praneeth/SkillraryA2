@@ -9,6 +9,7 @@ import genericUtilities.BaseClass;
 import genericUtilities.IConstantPath;
 
 public class AddCategoryTest extends BaseClass {
+	//This method is virtual
 	@Test
 	public void addCategoryTest() {
 		
