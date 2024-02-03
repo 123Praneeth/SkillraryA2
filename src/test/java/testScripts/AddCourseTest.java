@@ -20,7 +20,7 @@ import genericUtilities.IConstantPath;
 			soft.assertTrue(courseList.getPageHeader().contains("Course List"));
 			courseList.clickNewButton();
 			soft.assertEquals(addCourse.getPageHeader(), "Add New Course");
-
+			//This test verifes if user is able to add course
 			Map<String, String> map = excel.readFromExcel("Add Course");
 			addCourse.setName(map.get("Name"));
 			addCourse.selectcategory(web, map.get("Category"));
